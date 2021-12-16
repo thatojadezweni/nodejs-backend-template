@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-backend-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thatojadezweni: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@github.com/thatojadezweni/nodejs-backend-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thatojadezweni/nodejs-backend-template/issues"
+  },
+  "homepage": "https://github.com/thatojadezweni/nodejs-backend-template#readme"
+}
