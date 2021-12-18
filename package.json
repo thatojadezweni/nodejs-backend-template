@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
+    "start": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/thatojadezweni/nodejs-backend-template/issues"
   },
-  "homepage": "https://github.com/thatojadezweni/nodejs-backend-template#readme"
+  "homepage": "https://github.com/thatojadezweni/nodejs-backend-template#readme",
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
 }
