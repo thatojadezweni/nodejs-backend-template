@@ -10,11 +10,32 @@
         "@typescript-eslint",
         "prettier"
     ],
+    "settings": {
+        "import/parsers": {
+            "@typescript-eslint/parser": [".ts"]
+        },
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".ts"]
+            }
+        }
+    },
     "rules": {
         "prettier/prettier": "error",
         "@typescript-eslint/indent": ["error", 4],
-        "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/no-explicit-any": "error",
-        "max-len": ["error", {"code": 700, "ignoreUrls": true}]
+        "max-len": ["error", {"code": 700, "ignoreUrls": true}],
+        "import/extensions": 
+        [
+            "error", 
+            "ignorePackages", 
+            {
+                "js": "never",
+                "ts": "never"
+            }
+        ],
+        "no-console": "off",
+        "no-underscore-dangle": "off",
+        "class-methods-use-this": "off"
     }
 }

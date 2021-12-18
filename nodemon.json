@@ -5,6 +5,6 @@
     ],
     "watch": ["src/**/*.ts"],
     "execMap": {
-        "ts": "node --inspect=0.0.0.0:8080 --nolazy -r ts-node/register"
+        "ts": "node --inspect=0.0.0.0:8000 --nolazy -r ts-node/register"
     }
 }
